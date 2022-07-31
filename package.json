@@ -1,0 +1,38 @@
+{
+  "name": "npm-project",
+  "version": "1.0.0",
+  "description": "construir un paquete para node",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hola": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RtMarksmash/npm-project.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "package"
+  ],
+  "author": "jorge mario mora <jorgemariomoramolina@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RtMarksmash/npm-project/issues"
+  },
+  "homepage": "https://github.com/RtMarksmash/npm-project#readme",
+  "dependencies": {
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "date-fns": "^2.29.1"
+  },
+  "optionalDependencies": {
+    "eslint": "^8.20.0"
+  },
+  "bin":{
+    "random": "./bin/global.js"
+  },
+  "preferGlobal": true
+}
